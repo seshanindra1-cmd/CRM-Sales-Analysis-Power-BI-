@@ -1,27 +1,45 @@
-# 📈 CRM Sales Analysis (Power BI)
+# 📊 CRM Sales Analysis (Power BI)
 
-## 📌 Project Overview
-This project focuses on analyzing CRM sales data to uncover trends in customer behavior, revenue, and retention.  
-A Power BI dashboard was developed to provide insights into sales performance.
+## 📌 Project Overview  
+This project analyzes CRM (Customer Relationship Management) sales data to understand trends in customer behavior, revenue performance, and retention.  
+A Power BI dashboard was created to visualize these insights for business stakeholders.
 
-## 🔍 Problem Statement
-The goal was to help the business track sales performance and customer activity to improve decision-making.
+---
 
-## 🛠️ Approach
-- Cleaned and transformed CRM data for analysis.  
-- Built interactive Power BI dashboard with key KPIs:
-  - Revenue by region, product, and sales rep.  
-  - Customer segmentation by sales and retention.  
-  - Monthly and quarterly sales trends.  
-- Designed visuals for easy interpretation.
+## 🔍 Problem Statement  
+How can a business monitor and understand its sales pipeline, customer segments, and revenue trends over time?  
+The goal is to equip decision-makers with visual tools and metrics to evaluate performance and make data-driven strategies.
 
-## 📊 Key Insights
-- Identified top-performing products and regions driving revenue.  
-- Highlighted sales reps with consistent performance improvements.  
-- Uncovered seasonal patterns in customer purchasing.  
+---
 
-## 🧰 Tech Stack
-- Power BI  
-- Data Modeling (DAX, Measures, Relationships)  
+## 🛠️ Approach  
+1. **Data Preparation & Cleaning**  
+   - Loaded various CSV data files (sales, accounts, products, sales teams, etc.)  
+   - Cleaned and transformed tables (handling missing values, formatting columns)  
+   - Created a **data dictionary** for clarity on each table/column  
 
-## 📂 Repository Structure
+2. **Data Modeling in Power BI**  
+   - Imported cleaned tables into Power BI  
+   - Defined relationships among tables (e.g. sales ↔ accounts, products)  
+   - Created measures and KPIs using DAX (e.g. revenue, growth, retention rate)  
+
+3. **Dashboard Design & Visualization**  
+   - Built interactive visuals:
+     - Revenue by region, product, sales rep  
+     - Trends over time (monthly, quarterly)  
+     - Customer segmentation by performance and retention  
+     - Pipeline stages and funnel chart  
+   - Added slicers / filters for deeper drilling  
+
+---
+
+## 📊 Key Insights  
+- Some regions/products significantly outperform others in revenue.  
+- Sales pipelines show bottlenecks at certain stages.  
+- High-performing sales reps consistently achieve above-average growth.  
+- Customer retention and churn metrics help understand business health.
+
+---
+
+## 📂 Repository Structure  
+
