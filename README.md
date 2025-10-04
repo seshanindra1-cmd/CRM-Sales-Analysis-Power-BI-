@@ -7,7 +7,7 @@ A Power BI dashboard was created to visualize these insights for business stakeh
 ---
 
 ## 🔍 Problem Statement  
-How can a business monitor and understand its sales pipeline, customer segments, and revenue trends over time?  
+How can a business monitor and understand its customer segments, and revenue trends over time?  
 The goal is to equip decision-makers with visual tools and metrics to evaluate performance and make data-driven strategies.
 
 ---
@@ -24,19 +24,18 @@ The goal is to equip decision-makers with visual tools and metrics to evaluate p
 
 3. **Dashboard Design & Visualization**  
    - Built interactive visuals:
-     - Revenue by region, product, sales rep  
-     - Trends over time (monthly, quarterly)  
-     - Customer segmentation by performance and retention  
-   - Added slicers / filters for deeper drilling  
+     - Bar charts for revenue by region, product, sales rep 
+     - Line chart for Trends over time (monthly, quarterly)  
+     - A table showing Emp to Oppurtunity ratio
+     - Cards showing average tine for deal completion,total close value,total oppurtunities won
+     - Added slicers to drill across regions and managers 
 
 ---
 
 ## 📊 Key Insights  
-- Some regions/products significantly outperform others in revenue.  
-- Sales pipelines show bottlenecks at certain stages.  
-- High-performing sales reps consistently achieve above-average growth.  
-- Customer retention and churn metrics help understand business health.
-
+-Central is the only region with 500 prospecting projects assign extra managers in the location.
+-In Japan and Jordan the employees are more compared to the opportunities, try prospecting more projects.
+-Recruit more employees in the recently established companies
 ---
 
 ## 📂 Repository Structure  
