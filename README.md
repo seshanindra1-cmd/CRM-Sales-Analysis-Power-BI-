@@ -16,7 +16,6 @@ The goal is to equip decision-makers with visual tools and metrics to evaluate p
 1. **Data Preparation & Cleaning**  
    - Loaded various CSV data files (sales, accounts, products, sales teams, etc.)  
    - Cleaned and transformed tables (handling missing values, formatting columns)  
-   - Created a **data dictionary** for clarity on each table/column  
 
 2. **Data Modeling in Power BI**  
    - Imported cleaned tables into Power BI  
@@ -28,7 +27,6 @@ The goal is to equip decision-makers with visual tools and metrics to evaluate p
      - Revenue by region, product, sales rep  
      - Trends over time (monthly, quarterly)  
      - Customer segmentation by performance and retention  
-     - Pipeline stages and funnel chart  
    - Added slicers / filters for deeper drilling  
 
 ---
